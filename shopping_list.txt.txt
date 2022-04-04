@@ -1,5 +1,5 @@
-- mleko
-- leb
-- jajca
-- brasno
-- smoki
+- mleko (x3)
+- leb (x1) 
+- jajca (x5)
+- brasno (x1)
+- smoki (x2)
