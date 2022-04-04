@@ -3,3 +3,4 @@
 - jajca (x5)
 - kakao (x1)
 - smoki (x2)
+- kaskaval (x1)
