@@ -2,3 +2,4 @@
 - leb (x1) 
 - jajca (x5)
 - brasno (x1)
+- smoki (x6)
