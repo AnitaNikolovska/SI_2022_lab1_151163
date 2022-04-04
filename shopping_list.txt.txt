@@ -2,5 +2,4 @@
 - leb (x3) 
 - jajca (x5)
 - kakao (x1)
-- smoki (x6)
-- 
+- smoki (x2)
