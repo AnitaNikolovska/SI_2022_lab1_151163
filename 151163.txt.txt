@@ -1,0 +1,43 @@
+5. Kreirav lokalna .txt datoteka kade sto zapisav 5 proizvodi i napraviv commit preku GIT Desktop
+so porakata “Add 5 items to the shopping list”.
+
+6. Dodadov kolicina na proizvodite, napraviv "save" na .txt file-ot i pak preku GIT Desktop commit-nav
+so porakata “Add quantities to the items".
+
+7. Preku GIT Desktop -> Current branch -> New branch gi kreirav branch1 i branch2.
+
+9. Dvete novi branches gi sinhronizirav so mojot repozitorium.
+
+10. Se prefrliv na branch1 od GIT Desktop -> Current branch -> branch1.
+
+11. Ja smeniv kolicinata na 5tiot proizvod od (x2) vo (x6) dodeka sum na branch1. Commit-nav so 
+porakata "Change quantity of item #5". I na kraj push-nav do oddaleceniot repozitorium.
+
+12. GIT Desktop -> Current branch -> master.
+
+13. Ja smeniv kolicinata na 2riot prozivod od (x1) vo (x3) dodeka sum na master. Commit napraviv so
+porakata “Change quantity of item #2", i push origin do do oddaleceniot repozitorium.
+
+14. Sinhronizirani mi se site granki so oddaleceniot repozitorium. Momentalno vo mojot repozitorium online
+na master grankata gi ima promenite koi sto gi napraviv i mozam uspesno da gi spojam branch1 so master.
+
+15. GIT Desktop -> Current branch -> branch2.
+
+16. Od lokaniot repozitorium go smeniv imeto na 4tiot proizvod od "brasno" vo "kakao" i commit-nav 
+na branch2 so porakata "Modify item #4". Napraviv "push origin" za da sinhroniziram.
+
+18. Dodadov 6ti proizvod "kaskaval (x1)". Commit-nav "Modify item #4 and add item #6". 
+Napraviv push origin za sinhronizacija. 
+
+20. GIT Desktop -> Current branch -> Choose a branch to merge into BRANCH -> branch1 ->
+Create a merge commit -> Push origin. Merge bez konflikt.
+
+21. GIT Desktop -> Current branch -> Choose a branch to merge into BRANCH -> branch2 ->
+Se javuva konflikt pri merge-ot. 
+Za da probam da go sredam konfliktot na master grankata, vo mojot .txt file "brasno" smeniv vo "kakao". 
+Toa go commit-nav na master i go sinhronizirav. Pak se javuva konflikt pri merge.
+Dodadov prazen 6ti proizvod so poraka "Empty #6 item" -> commit -> push origin. Vidov deka toa ne e problemot,
+go izbirsav #6 element od .txt file-ot, ja smeniv kolicinat na "smoki" -> commit so porakata
+"Delete #6 item and change quantity of #5 item" -> push origin. Pak se javuva konflikt.
+Na master, shopping_list.txt go vrativ kakov sto bese koga se mergna so branch1, pred da probam da go mergnam
+so branch2 i da gi napravam site promeni. 
